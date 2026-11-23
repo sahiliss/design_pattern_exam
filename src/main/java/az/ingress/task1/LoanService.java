@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Kredit müraciətinin yoxlanması.
+ * Kredit müraciətinin yoxlanması.--Chain of Responsibility
  */
 public class LoanService {
 
@@ -36,18 +36,25 @@ public class LoanService {
      *     mövcud yoxlamalara toxunmasın.
      */
     public String evaluate(Application app) {
+        if (sanctions.contains(app.name())) {
+            return "REJECTED: sanctions";
+        }
         if (app.age() < 18 || app.age() > 65) {
             return "REJECTED: age";
+        }
+        if (app.monthsAtJob() < 6) {
+            return "REJECTED: work experience";
         }
         if (blacklist.contains(app.name())) {
             return "REJECTED: blacklist";
         }
-        if (creditScore(app.name()) < 600) {
-            return "REJECTED: credit score";
-        }
         if (app.amount() > app.salary() * 10) {
             return "REJECTED: income";
         }
+        if (creditScore(app.name()) < 600) {
+            return "REJECTED: credit score";
+        }
+
         return "APPROVED";
     }
 

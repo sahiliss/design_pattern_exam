@@ -1,7 +1,7 @@
 package az.ingress.task5;
 
 /**
- * Avto sığorta polisinin yaradılması.
+ * Avto sığorta polisinin yaradılması.--Builder
  */
 public class PolicyService {
 

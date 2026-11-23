@@ -1,7 +1,7 @@
 package az.ingress.task4;
 
 /**
- * Şəxsi kabinetdə istifadə hesabatı ekranı (internet, dəqiqə, SMS).
+ * Şəxsi kabinetdə istifadə hesabatı ekranı (internet, dəqiqə, SMS).--Proxy
  */
 public class UsageReportScreen {
 

@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * Kartla ödənişlərin provayderlərə göndərilməsi.
+ * Kartla ödənişlərin provayderlərə göndərilməsi.--Adapter
  */
 public class PaymentService {
 
