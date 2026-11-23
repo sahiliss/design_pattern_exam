@@ -12,7 +12,7 @@ Tapşırıqları dərsdə keçdiyimiz design pattern-lərdən istifadə edərək
 
 ## İşə salmaq
 
-- Layihəni IntelliJ IDEA-da Gradle layihəsi kimi açın (Java 17).
+- Layihəni IntelliJ IDEA-da Gradle layihəsi kimi açın (Java 17). salam
 - Hər tapşırıq bir sinifdir. Onun `main()` metodunu işə salın və çıxışı TODO-dakı gözlənilən nəticə ilə müqayisə edin.
 - Kompilyasiya: `./gradlew build`
 

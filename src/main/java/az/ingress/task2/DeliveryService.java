@@ -3,7 +3,7 @@ package az.ingress.task2;
 import java.util.List;
 
 /**
- * Sifarişin çatdırılma qiymətinin hesablanması.
+ * Sifarişin çatdırılma qiymətinin hesablanması.--Strategy
  */
 public class DeliveryService {
 
